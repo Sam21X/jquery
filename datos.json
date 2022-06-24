@@ -1,0 +1,54 @@
+[{
+        "name": "Yggdrassil",
+        "img": "http://localhost/jquery/imagenes/2.jpg",
+        "description": "Would you like to learn a bit more about the universe of Asgard? Today we bring you at the heart of its theme, in the Norse mythology. To start discovering the world of Thor and Odin you would need to become familiar with a North Germanic language with words, syllables and letters that we are not used to dealing with. Svartalfheim is a good example. It's a whole lexicon to understand, a detailed world to discover. All artifacts, creatures, places have their own names and stories. For example Odin rides his eight-legged horse named Sleipnir, he is armed with his spear Gungnir and when he is in his palace in Valhalla, two ravens Hugin and Munin whisper in his ear what they saw of the nine worlds while two wolves, Geri and Freki, remain at his feet ",
+        "children": []
+    },
+    {
+        "name": "The Nine Worlds",
+        "img": "http://localhost/jquery/imagenes/Asgard2.jpg",
+        "description": "El árbol de la vida, como lo conocemos actualmente, era según la mitología nórdica, el lugar donde se encontraban ubicados los nueve mundos que conformaban dicha mitología y lleva por nombre Yggdrasil.",
+        "children": [{
+                "name": "Asgard",
+                "img": "http://localhost/jquery/imagenes/asgard2.jpg",
+                "description": "Asgard is the land of the Ases (or Aesir) of the warrior and sovereign gods represented by Odin the father-of-all. Odin is a main figure in Norse mythology.He and his brothers created Midgard our world, the humans one with the corpse of Ymir, the original giant, after a deadly battle. The Earth is his flesh, the Ocean his blood.Ocean in which Jormungandr lives, a monstrous snake whose gigantic tail completely encircles the kingdom. A rainbow bridge, the Bifrost, connects these two worlds and provides the gods but also some humans a mean to travel between."
+            },
+            {
+                "name": "Vanaheim",
+                "img": "http://localhost/jquery/imagenes/vanaheim.jpg",
+                "description": "In Norse mythology there is another type of gods, the Vanes (or Vanir) who live in Vanaheim. They are the gods of fertility, fecundity, wisdom and precognition. They waged war with the Ases for a long time which ended in a truce sealed by an exchange of Gods which brought the Vanes Njörd, Freyr and Freyja to Asgard. "
+            },
+            {
+                "name": "Alfheim",
+                "img": "http://localhost/jquery/imagenes/alfheim.png",
+                "description": "Several other types of living beings inhabit the Yggdrasil. The Alfar, bright Elves, live in Alfheim and provide spiritual helps and advices to the mortals. They are said to be even brighter than the sun."
+            },
+            {
+                "name": "Midgard",
+                "img": "http://localhost/jquery/imagenes/midgard.jpg",
+                "description": "Midgard – our world, the humans’ one – with the corpse of Ymir, the original giant, after a deadly battle.The Earth is his flesh,the Ocean his blood.Ocean in which Jormungandr lives,a monstrous snake whose gigantic tail completely encircles the kingdom. A rainbow bridge, the Bifrost, connects these two worlds and provides the gods but also some humans a mean to travel between.some humans a mean to travel between."
+            },
+            {
+                "name": "Nidavelir",
+                "img": "http://localhost/jquery/imagenes/nidavelir.jpg",
+                "description": "(Stood before the north, a dark field, Halls of gold, Sindri's tribe). One interpretation of the above verse would read like this: Before you reach the north(Niflheimr being the world furthest to the north), A dark dwelling stands(The dwarf world), In halls of gold,Sindri 's bloodline lives.Sindri was a famous dwarf.And ættar means bloodline,or in this case most likely kin or tribe. Niðavellir has often been interpreted as one of the Nine Worlds of Norse legend.The problem is that both Nidavellir and Svartalfheim are mentioned, and it is unclear if the sixth world is a world of dwarfs or one of dark elves."
+            }, {
+                "name": "Jotunheim",
+                "img": "http://localhost/jquery/imagenes/jotunheim.jpg",
+                "description": "From Jötunheimr, the jötnar menace the human race in Midgard and the gods in Asgard. The river Ífingr separates Asgard, the realm of the gods,from Jötunheimr, the land of giants.Gastropnir, the protection wall for the home of Menglad, and Þrymheimr, home of Þjazi, were both located in Jötunheimr, which was ruled by King Þrymr. Glæsisvellir was a location in Jötunheimr,where lived the giant Gudmund, father of Höfund.Utgard was a stronghold surrounding the land of the giants, [1] but in Nordic languages, “Jötunheimr” is also simply a name for the realm of giants. [1][2] ðavellir has often been interpreted as one of the Nine Worlds of Norse legend. The problem is that both Nidavellir and Svartalfheim are mentioned, and it is unclear if the sixth world is a world of dwarfs or one of dark elves."
+            }, {
+                "name": "Muspelheim",
+                "img": "http://localhost/jquery/imagenes/muspelheim.png",
+                "description": "Muspelheim, also called Muspel (from Old Norse Múspellsheimr and Múspell, respectively), is the realm of fire in Norse mythology.1 It is the home of the Fire Giants, of whom Surt was the most powerful. Muspelheim means world of fire or home of fire, Muspel being fire and Heim, home or world.2 Muspelheim is believed to have been the highest of all the realms, and was above Asgard, the home of the Æsir.Further south was Jötunheim, the realm of ice and the Jötnar. In Norse mythology creation begins from the contact between fire and ice in the immense initial void known as Ginnungagap,creating the ether.The bright objects of the night sky, such as planets, comets and stars emerged from the sparks of Muspelheim. In Ragnarök, the heavens will open and Surt will emerge from Muspelheim followed by all his giants, marching towards Asgard and destroying the Bifrost Bridge in his path."
+            }, {
+                "name": "Nilfheim",
+                "img": "http://localhost/jquery/imagenes/vanaheim.jpg",
+                "description": "From Jötunheimr, the jötnar menace the human race in Midgard and the gods in Asgard. The river Ífingr separates Asgard, the realm of the gods, from Jötunheimr, the land of giants.Gastropnir, the protection wall for the home of Menglad, and Þrymheimr, home of Þjazi, were both located in Jötunheimr, which was ruled by King Þrymr. Glæsisvellir was a location in Jötunheimr, where lived the giant Gudmund, father of Höfund.Utgard was a stronghold surrounding the land of the giants, [1] but in Nordic languages, “Jötunheimr” is also simply a name for the realm of giants. [1][2] ðavellir has often been interpreted as one of the Nine Worlds of Norse legend. The problem is that both Nidavellir and Svartalfheim are mentioned, and it is unclear if the sixth world is a world of dwarfs or one of dark elves."
+            }, {
+                "name": "Helheim",
+                "img": "http://localhost/jquery/imagenes/helheim.jpg",
+                "description": "What was Helheim? It was the place located in the last level of the Nordic cosmos, in the world of Niflheim. It is the dark, icy and totally foggy abode where those who die in conditions other than death in battle go. It is a place from which you cannot leave once you pass through the gates that lead to it, not even the gods can leave. Who goes to Hel ? To this place go those who die of disease or old age, as well as those who have committed crimes and are condemned by the gods to Helheim. Who or what was Garm ? Garm is the monstrous hound that guards the entrance to Helheim, along with the giant Hraesvelg or corpse - eater."
+            }
+        ]
+    }
+]

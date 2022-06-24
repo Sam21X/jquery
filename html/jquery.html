@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script src="../javascript/jquery.js"></script>
+        <script src="../javascript/funcionalidad.js"></script>
+        <!-- <script src="../javascript/selectores.js"></script>-->
+        <!-- <script src="../javascript/eventos.js"></script>-->
+    </head>
+    <body>
+        <div class="row-cols-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                <div class="container">
+                    <a class="alert-link" href="https://en.wikipedia.org/wiki/Norse_mythology#:~:text=Norse%20or%20Scandinavian%20mythology%20is,folklore%20of%20the%20modern%20period.">
+                        <strong> Nordic Mythology</strong>
+                    </a>
+                    <form class="d-flex">
+                        <input class="form-control me-2 search" type="search" placeholder="Search">
+                        <button class="btn btn-outline-primary btnSearch" type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="row-cols-auto div_texto" style="text-align:center;">
+            <div class="row justify-content-center content">
+                <div class="col-lg-6 col-md-8">
+                    <h1 id="titulo">Yggdrassil</h1>
+                    <p id="card-text parrafo">Here goes the text of the JSON</p>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="parents">
+            <div class="row-cols-auto tarjeta">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 img">
+                            <img src="... " class="img-fluid rounded-start" alt="sin imagen">
+                        </div>
+                        <div class="col-md-8 text">
+                            <div class="card-body">
+                                <h5 id="card-title" class="sin_borde">Card title</h5>
+                                <p class="card-text">This content is a little bit longer.</p>
+                                <div class="btn">
+                                    <button
+                                        type="button"
+                                        class="btn btn-secondary view"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                    >Ver</button>
+                                    <button type="button" class="btn btn-danger delete">Eliminar</button>
+                                    <button
+                                        type="button"
+                                        class="btn btn-dark update"
+                                        data-bs-toggle="modal2"
+                                        data-bs-target="#exampleModal2"
+                                    >Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!--<div>
+        <ul>
+            <li>
+                <a href="https://www.google.com" title="Google">Ir A Google</a>
+            </li>
+            <li>
+                <a href="https://www.wikipedia.com" title="Wikipedia">Ir A wikipedia</a>
+            </li>
+        </ul>
+    </div>
+    <div id="caja">
+        <p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+        </p>
+        <ul>
+            <li class="resaltado">
+                Elemento 1
+            </li>
+            <li id="resaltado2">
+                elemento 2
+            </li>
+            <span class="resaltado">Soy un span</span>
+        </ul>
+    </div>-->
+    
+        <script>
+            $(document).ready(function () {
+                getData({name:"Yggdrassil"})
+
+            });
+        </script>
+    </body>
+</html>
