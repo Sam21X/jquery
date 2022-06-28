@@ -2,7 +2,16 @@
         "name": "Yggdrassil",
         "img": "http://localhost/jquery/imagenes/2.jpg",
         "description": "Would you like to learn a bit more about the universe of Asgard? Today we bring you at the heart of its theme, in the Norse mythology. To start discovering the world of Thor and Odin you would need to become familiar with a North Germanic language with words, syllables and letters that we are not used to dealing with. Svartalfheim is a good example. It's a whole lexicon to understand, a detailed world to discover. All artifacts, creatures, places have their own names and stories. For example Odin rides his eight-legged horse named Sleipnir, he is armed with his spear Gungnir and when he is in his palace in Valhalla, two ravens Hugin and Munin whisper in his ear what they saw of the nine worlds while two wolves, Geri and Freki, remain at his feet ",
-        "children": []
+        "children": [{
+            "name": "Asgard",
+            "img": "http://localhost/jquery/imagenes/asgard2.jpg",
+            "description": "Asgard is the land of the Ases (or Aesir) of the warrior and sovereign gods represented by Odin the father-of-all. Odin is a main figure in Norse mythology.He and his brothers created Midgard our world, the humans one with the corpse of Ymir, the original giant, after a deadly battle. The Earth is his flesh, the Ocean his blood.Ocean in which Jormungandr lives, a monstrous snake whose gigantic tail completely encircles the kingdom. A rainbow bridge, the Bifrost, connects these two worlds and provides the gods but also some humans a mean to travel between."
+        },
+        {
+            "name": "Vanaheim",
+            "img": "http://localhost/jquery/imagenes/vanaheim.jpg",
+            "description": "In Norse mythology there is another type of gods, the Vanes (or Vanir) who live in Vanaheim. They are the gods of fertility, fecundity, wisdom and precognition. They waged war with the Ases for a long time which ended in a truce sealed by an exchange of Gods which brought the Vanes Njörd, Freyr and Freyja to Asgard. "
+        }]
     },
     {
         "name": "The Nine Worlds",
