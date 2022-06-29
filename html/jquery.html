@@ -30,9 +30,7 @@
                     <h1 id="titulo">Yggdrassil</h1>
                     <p id="card-text">Here goes the text of the JSON</p>
                      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
                 </div>
             </div>
         </div>
@@ -48,19 +46,16 @@
                                 <h5 id="card-title" class="sin_borde">Card title</h5>
                                 <p class="card-text">This content is a little bit longer.</p>
                                 <div class="btn">
-                                    <button type="button" class="btn btn-secondary view" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
-                                    <button type="button" class="btn btn-danger delete">Eliminar</button>
-                                    <button type="button" class="btn btn-dark update" data-bs-toggle="modal2" data-bs-target="#exampleModal2" >Update</button>
+                                    <button type="button" class="btn btn-secondary" id="view" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver</button>
+                                    <button type="button" class="btn btn-danger" id="delete">Eliminar</button>
+                                    <button type="button" class="btn btn-dark update" data-bs-toggle="modal2" data-bs-target="#exampleModal2">Update</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
- <!---MODAL y boton--><!-- The Modal -->
-
-  
+        </div>  
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -81,7 +76,7 @@
   </div>
         <script>
             $(document).ready(function () {
-                getData({name:"Yggdrassil"})
+                getData({name:"The Nine Worlds"})
             });
         </script>
     </body>
