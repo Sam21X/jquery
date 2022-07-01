@@ -68,10 +68,11 @@ function showOrDelete(element,action,data){
 
 function clearNodes(title, data) {
   var parent = $('#parents');
-  console.log(parent.has('#tarjeta5'))
+  console.log($('#parents').hasChildNodes)
   for (let index = 0; index < parent.children().length; index++) {
     if (index>=1) {
-      //$('div').remove('#tarjeta'+index);
+      $('div').remove('#tarjeta'+index);
+      console.log(element);
     }
   } //console.log(parent.children());
   
